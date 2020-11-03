@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulier</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulier voor chefs</h1>
+    </header>
+    <main>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Naam: <input type="text" name="naam" /></label>
+        </p>
+        <p>
+          <label>Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Telefoonnummer: <input type="tel" name="phone" /> </label>
+        </p>
+        <p>
+          <label>Leeftijd: <input type="number" name="age" /></label>
+        </p>
+        <p>
+          <label>Geboortedatum: <input type="date" name="birthday" /></label>
+        </p>
+        <p>
+          <label>
+            Gender: <br />
+            <input type="radio" name="gender" value="man" />
+            <label>Man</label><br />
+            <input type="radio" name="gender" value="vrouw" />
+            <label>Vrouw</label><br />
+            <input type="radio" name="gender" value="anders" />
+            <label>Anders</label>
+          </label>
+        </p>
+        <p>
+          <label>
+            Favoriete cuisine: <br />
+            <input
+              type="checkbox"
+              id="cuisine1"
+              name="cuisine1"
+              value="frans"
+            />
+            <label for=""> Frans</label><br />
+            <input
+              type="checkbox"
+              id="cuisine2"
+              name="cuisine2"
+              value="italiaans"
+            />
+            <label for=""> Italiaans</label><br />
+            <input
+              type="checkbox"
+              id="cuisine3"
+              name="cuisine3"
+              value="spaans"
+            />
+            <label for=""> Spaans</label><br />
+            <input
+              type="checkbox"
+              id="cuisine4"
+              name="cuisine4"
+              value="arabisch"
+            />
+            <label for=""> Arabisch</label>
+          </label>
+        </p>
+        <p>
+          <label>
+            Favoriete kleur short: <input type="color" name="color"
+          /></label>
+        </p>
+        <p>
+          <label>Biografie: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <label>
+            Upload je laatste recept: <input type="file" name="file"
+          /></label>
+        </p>
+        <p>
+          <label> URL recepten website: <input type="url" name="url" /></label>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+          <input type="reset" />
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
