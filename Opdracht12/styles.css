@@ -1,0 +1,54 @@
+body {
+  font-size: large;
+}
+
+nav {
+  background-color: darkblue;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+
+ul *:hover {
+  background-color: lightblue;
+}
+
+li {
+  margin: 4px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav input:focus {
+  border: 5px solid aqua;
+}
+
+main input:focus {
+  color: green;
+  font-size: 20px;
+}
+
+.currentPage {
+  background-color: #8fadbf;
+}
+
+.google:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.facebook:active {
+  color: red;
+  font-style: italic;
+}
+
+.instagram:visited {
+  color: yellow;
+}
