@@ -1,0 +1,10 @@
+$padding: 20px;
+$backgroundhead: #c0eea9;
+$backgroundpage: #97d279;
+$linecolor: #000;
+
+@mixin textstyle {
+    max-width: 700px;
+    text-align: center;
+    padding: $padding;
+}
