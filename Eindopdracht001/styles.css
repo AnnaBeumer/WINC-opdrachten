@@ -1,0 +1,411 @@
+body {
+  background-color: #ebf6fa;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #4d4b48;
+  display: grid;
+  grid-gap: 5px;
+  margin: 5px;
+}
+
+main,
+footer {
+  padding: 5px;
+}
+
+nav {
+  padding: 5px;
+  font-size: 4.5vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+main {
+  border-bottom: 2px solid;
+  line-height: auto;
+}
+
+main h1 {
+  text-align: center;
+  margin: 0;
+}
+
+main blockquote {
+  font-size: 0.5rem;
+  margin-top: 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer div {
+  list-style: none;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.headerIMG {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+.germ2 {
+  display: none;
+}
+.ned2 {
+  display: none;
+}
+.eng2 {
+  display: none;
+}
+
+.navlist {
+  list-style: none;
+  margin: 2px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+
+.navitem {
+  margin: 0 5px;
+}
+
+.navitem a:link,
+.navitem a:visited {
+  color: #0a6680;
+}
+
+.navitem a:hover,
+.navitem a:active {
+  color: rgb(105, 105, 105);
+}
+
+.mainIMG {
+  width: 100%;
+  max-width: 1fr;
+  height: auto;
+  border: 1px solid black;
+}
+
+.fab,
+.far {
+  color: #0a6680;
+  font-size: xx-large;
+}
+
+.footerbtn {
+  color: #0a6680;
+  background-color: #cce4eb;
+  border: 1px solid #0a6680;
+}
+/* accomodatiepage */
+
+.accomodaties {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 80%;
+  grid-template-rows: 1ft;
+  justify-content: center;
+}
+
+.accomodaties button {
+  color: #0a6680;
+  font-weight: bold;
+  background-color: #cce4eb;
+  border: 1px solid #0a6680;
+}
+
+.airone {
+  list-style: none;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  padding: 3px;
+}
+
+.accIMG {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+}
+
+/* prijslijstpage */
+
+.prijs {
+  font-size: 0.8rem;
+}
+.prijslijstMH input {
+  display: none;
+}
+.prijslijstMH input + label {
+  display: inline-block;
+  border: 1px solid #0a6680;
+  background: #f2ffff;
+  padding: 4px 12px;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  top: 1px;
+}
+.prijslijstMH input ~ .tab {
+  display: none;
+}
+
+#tab1:checked ~ .tab.content1,
+#tab2:checked ~ .tab.content2,
+#tab3:checked ~ .tab.content3,
+#tab4:checked ~ .tab.content4,
+#tab5:checked ~ .tab.content5 {
+  display: block;
+}
+
+input:checked + label {
+  background: #99cbcc;
+}
+
+/* de lijn onder de tabs */
+.prijslijstMH input ~ .tab {
+  border-top: 1px solid #999;
+  padding: 12px;
+}
+
+/* boekenpage */
+.boekIMG {
+  width: 100%;
+  max-width: 1fr;
+  height: auto;
+  border: 1px solid black;
+}
+.boeken {
+  display: flex;
+  flex-direction: column;
+}
+
+.boeken input {
+  width: 1fr;
+}
+
+.boeken select {
+  width: 1fr;
+}
+
+.boeken textarea {
+  width: 98%;
+}
+
+.boeken .boekbtn {
+  width: 40%;
+  align-self: center;
+  color: #0a6680;
+  background-color: #cce4eb;
+  border: 1px solid #0a6680;
+}
+
+/* contactpage */
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 200px;
+  width: 300px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 200px;
+  width: 300px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-family: "Roboto Slab", serif;
+    margin: 20px;
+    display: grid;
+    grid-gap: 5px;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+
+  header h2 {
+    font-size: 2.5rem;
+  }
+
+  blockquote {
+    display: none;
+  }
+
+  main h1 {
+    border-bottom: 2px solid grey;
+  }
+
+  main h3 {
+    font-size: 2rem;
+  }
+
+  footer div {
+    font-size: small;
+  }
+
+  .fa-campground {
+    font-size: xx-large;
+  }
+
+  .headerIMG {
+    height: 300px;
+  }
+
+  .talen {
+    display: flex;
+  }
+
+  .germ1 {
+    display: none;
+  }
+
+  .germ2 {
+    display: block;
+    padding: 5px;
+  }
+  .ned1 {
+    display: none;
+  }
+
+  .ned2 {
+    display: block;
+    padding: 5px;
+  }
+
+  .eng1 {
+    display: none;
+  }
+
+  .eng2 {
+    display: block;
+    padding: 5px;
+  }
+
+  .navlist {
+    justify-content: space-between;
+  }
+
+  .navitem {
+    font-size: x-large;
+  }
+
+  .mainindex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    align-items: center;
+    margin: 5px;
+  }
+
+  .mainindex iframe {
+    align-self: center;
+    justify-self: center;
+    width: 400px;
+    height: 250px;
+  }
+
+  .mainIMG {
+    grid-column: 1 / 2;
+    grid-row: 2 /-1;
+  }
+
+  .accomodaties {
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+  }
+
+  .boekIMG {
+    display: none;
+  }
+
+  .boeken {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(8, auto);
+    row-gap: 5px;
+    margin: 10px;
+  }
+
+  .boeken label {
+    font-size: medium;
+  }
+
+  .boeken textarea {
+    width: 99%;
+  }
+
+  .boekbtn {
+    font-size: large;
+    grid-column: 1 / span 2;
+    grid-row: 8 / 9;
+    justify-self: center;
+  }
+
+  .adres {
+    grid-area: adres;
+  }
+
+  .tel {
+    grid-area: tel;
+  }
+
+  .mail {
+    grid-area: mail;
+  }
+
+  .follow {
+    grid-area: follow;
+    justify-self: center;
+  }
+
+  .mapouter {
+    grid-area: map;
+    align-self: center;
+  }
+
+  #contact {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: repeat(4, auto);
+    justify-content: center;
+    grid-template-areas:
+      "adres . map"
+      "tel . map"
+      "mail . map"
+      "follow follow follow";
+  }
+
+  #contact p {
+    font-size: large;
+  }
+}

@@ -4,12 +4,13 @@ body {
   background-color: #d4f0eb;
 }
 
-p {
-  font-size: small;
+h1 {
+  font-size: 2.5em;
 }
 
 h2 {
   font-weight: 200;
+  font-size: 1em;
 }
 
 header {
@@ -24,6 +25,11 @@ main {
   border-right: 5px solid #dd8deb;
   margin: 0px 15px;
   padding: 0px 15px;
+  height: 100%;
+  font-size: 1.5em;
+}
+p {
+  font-size: 1em;
 }
 
 nav {
@@ -31,6 +37,7 @@ nav {
   border-bottom: 10px double #eba58d;
   margin: 30px 0px;
   padding: 10px 0px;
+  font-size: 1.5em;
 }
 
 nav ul {
@@ -38,6 +45,14 @@ nav ul {
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+.blogcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  font-size: 0.8em;
+  height: 600px;
 }
 
 .nav li {
@@ -55,4 +70,29 @@ nav ul {
   font-weight: bold;
   padding: 10px;
   border-radius: 5px;
+}
+
+.blogpost {
+  width: 200px;
+  border: 1px solid black;
+}
+
+#post1 {
+  align-self: flex-end;
+}
+
+#post3 {
+  flex-grow: 1;
+}
+
+/* mediaqueries */
+@media (min-width: 1024px) {
+  body {
+    background-color: #f5cfbf;
+    color: #9e9795;
+  }
+  p {
+    font-size: 0.5em;
+    line-height: 30px;
+  }
 }

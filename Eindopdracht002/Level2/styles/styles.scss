@@ -1,0 +1,94 @@
+body{
+    background: #c3cfe2;
+    padding: 15px;
+}
+
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5mm;
+    align-content: space-around;
+    justify-items: center;
+    overflow: hidden;
+   
+    .portfolio-grid__img-wrapper{
+        position: relative;
+        max-height: 98%;
+        max-width: 300px;
+        background-color:#616161;
+        border-radius: 10px 10px 10px 10px;
+     
+        img{
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 10px 10px 10px 10px;
+            }
+        &:hover img{
+            filter: blur(2.5px);
+            animation: fadeOut 1000ms ease-in-out;
+            opacity: 0;
+            }
+        &:not(hover) img {
+            animation: fadeIn 500ms ease-out;
+            }
+          
+        span{
+            display: none;
+            position: absolute;
+            top: 130px;
+            left: 90px;
+            
+            input[type="button"]{
+                width: 120px;
+                height: 40px;
+                background-color: #616161;
+                border: 2px solid white;
+                color: white;
+                font-weight: bold;
+                font-size: 17px;
+                }
+            }
+
+        &:hover span{
+                display: table-cell;
+                animation: fadeIn 1000ms ease-in-out;
+                }  
+
+        &:not(hover) span {
+                animation: fadeOut 500ms ease-out;
+                }       
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+.portfolio-grid{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 320px){
+    .portfolio-grid{
+        grid-template-columns: 1fr;
+        }
+}
+
+@keyframes fadeOut {
+        0% {
+          opacity: 1;
+        }
+     
+        100% {
+          opacity: 0;
+        }
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }

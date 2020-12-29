@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- font voor mobile -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font voor desktop -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="images/WhatsApp Image 2020-11-10 at 13.56.02.jpeg" />
+    <title>Camping Anna</title>
+  </head>
+  <body>
+    <header>
+      <i class="fas fa-campground"></i>
+      <h2>Camping Anna</h2>
+      <div class="talen">
+        <img
+          src="images/germany-flag-icon-16.png"
+          alt="deutsch"
+          class="germ1"
+        />
+        <img
+          src="images/germany-flag-round-icon-32.png"
+          alt="deutsch"
+          class="germ2"
+        />
+        <img
+          src="images/netherlands-flag-icon-16.png"
+          alt="nederlands"
+          class="ned1"
+        />
+        <img
+          src="images/netherlands-flag-round-icon-32.png"
+          alt="nederlands"
+          class="ned2"
+        />
+        <img
+          src="images/united-kingdom-flag-icon-16.png"
+          alt="english"
+          class="eng1"
+        />
+        <img
+          src="images/united-kingdom-flag-round-icon-32.png"
+          alt="english"
+          class="eng2"
+        />
+      </div>
+    </header>
+
+    <nav>
+      <ul class="navlist">
+        <li class="navitem"><a href="index.html">Home</a></li>
+        <li class="navitem"><a href="accomodaties.html">Accomodaties</a></li>
+        <li class="navitem"><a href="prijslijst.html">Prijslijst</a></li>
+        <li class="navitem"><a href="boeken.html">Boeken</a></li>
+        <li class="navitem"><a href="contact.html">Contact</a></li>
+      </ul>
+      <img
+        src="images/lake garda.jpeg"
+        alt="camping"
+        class="headerIMG"
+        width="1500"
+        height="auto"
+      />
+    </nav>
+
+    <main>
+      <h1>Prijslijst</h1>
+      <h3>Mobilehomes</h3>
+      <p class="prijs">
+        Prijzen zijn per week per unit. Exclusief toeristenbelasting.
+      </p>
+      <div class="prijslijstMH">
+        <!-- code voor tab buttons -->
+        <input type="radio" name="tabs" id="tab1" checked />
+        <label for="tab1">Airone</label>
+        <input type="radio" name="tabs" id="tab2" />
+        <label for="tab2">Albatros</label>
+        <input type="radio" name="tabs" id="tab3" />
+        <label for="tab3">Tucano</label>
+
+        <!-- code voor tab content -->
+        <div class="tab content1">
+          <table>
+            <thead>
+              <tr>
+                <th>Periode</th>
+                <th>Prijs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&nbsp;Voorseizoen</td>
+                <td>&nbsp;€49</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Hoogseizoen</td>
+                <td>&nbsp;€100</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Naseizoen</td>
+                <td>&nbsp;€62</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab content2">
+          <table>
+            <thead>
+              <tr>
+                <th>Periode</th>
+                <th>Prijs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&nbsp;Voorseizoen</td>
+                <td>&nbsp;€55</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Hoogseizoen</td>
+                <td>&nbsp;€120</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Naseizoen</td>
+                <td>&nbsp;€70</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab content3">
+          <table>
+            <thead>
+              <tr>
+                <th>Periode</th>
+                <th>Prijs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&nbsp;Voorseizoen</td>
+                <td>&nbsp;€60</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Hoogseizoen</td>
+                <td>&nbsp;€132</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Naseizoen</td>
+                <td>&nbsp;€58</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <h3>Appartementen</h3>
+      <p class="prijs">
+        Prijzen zijn per week per unit. Exclusief toeristenbelasting.
+      </p>
+      <div class="prijslijstMH">
+        <input type="radio" name="tabs" id="tab4" />
+        <label for="tab4">Cigno</label>
+        <input type="radio" name="tabs" id="tab5" />
+        <label for="tab5">Flamingo</label>
+
+        <!-- code voor tab content -->
+        <div class="tab content4">
+          <table>
+            <thead>
+              <tr>
+                <th>Periode</th>
+                <th>Prijs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&nbsp;Voorseizoen</td>
+                <td>&nbsp;€49</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Hoogseizoen</td>
+                <td>&nbsp;€101</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Naseizoen</td>
+                <td>&nbsp;€62</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab content5">
+          <table>
+            <thead>
+              <tr>
+                <th>Periode</th>
+                <th>Prijs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&nbsp;Voorseizoen</td>
+                <td>&nbsp;€46</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Hoogseizoen</td>
+                <td>&nbsp;€90</td>
+              </tr>
+              <tr>
+                <td>&nbsp;Naseizoen</td>
+                <td>&nbsp;€59</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h3>Schrijf je in voor de nieuwsbrief!</h3>
+      <form action="">
+        <input type="email" value="Email" />
+        <input class="footerbtn" type="submit" value="Schijf in" />
+      </form>
+      <br />
+      <div>Camping Anna</div>
+      <div>Tel: +31648989890 - Email: anna.m.beumer@gmail.com</div>
+      <div>Credits ANNABEUMER © 2020</div>
+    </footer>
+  </body>
+</html>

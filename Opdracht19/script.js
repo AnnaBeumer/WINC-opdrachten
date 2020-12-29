@@ -2,7 +2,7 @@ const age = 17;
 const isFemale = false;
 const driverStatus = "Henk";
 
-if (age > 18) {
+if (age >= 18) {
   console.log("Leeftijd is groter dan 18");
 } else {
   console.log("Leeftijd is kleiner dan 18");

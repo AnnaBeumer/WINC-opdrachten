@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #c3cfe2;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.social-media {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding-top: 10px;
+  list-style: none;
+  position: absolute;
+  right: -160px;
+  color: whitesmoke;
+}
+
+.social-media li {
+  padding-bottom: 20px;
+}
+
+.social-media a {
+  color: whitesmoke;
+}
+
+.social-media__text {
+  display: inline-block;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: medium;
+}
+
+.social-media .fa, .social-media .fab, .social-media .fad, .social-media .fal, .social-media .far, .social-media .fas {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 5px;
+  font-size: x-large;
+}
+
+.social-media__blog {
+  background-color: #e17b77;
+  float: right;
+  width: 220px;
+  height: 50px;
+  -webkit-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out;
+}
+
+.social-media__blog:hover {
+  -webkit-transform: translateX(-160px);
+          transform: translateX(-160px);
+}
+
+.social-media__blog .fa, .social-media__blog .fab, .social-media__blog .fad, .social-media__blog .fal, .social-media__blog .far, .social-media__blog .fas {
+  padding-left: 10px;
+}
+
+.social-media__facebook {
+  background-color: #3b5998;
+  float: right;
+  width: 220px;
+  height: 50px;
+  -webkit-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out;
+}
+
+.social-media__facebook:hover {
+  -webkit-transform: translateX(-160px);
+          transform: translateX(-160px);
+}
+
+.social-media__twitter {
+  background-color: #00aced;
+  float: right;
+  width: 220px;
+  height: 50px;
+  -webkit-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out;
+}
+
+.social-media__twitter:hover {
+  -webkit-transform: translateX(-160px);
+          transform: translateX(-160px);
+}
+
+.social-media__linkedin {
+  background-color: #007bb6;
+  float: right;
+  width: 220px;
+  height: 50px;
+  -webkit-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out;
+}
+
+.social-media__linkedin:hover {
+  -webkit-transform: translateX(-160px);
+          transform: translateX(-160px);
+}
+
+.social-media__github {
+  background-color: #333;
+  float: right;
+  width: 220px;
+  height: 50px;
+  -webkit-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out;
+}
+
+.social-media__github:hover {
+  -webkit-transform: translateX(-160px);
+          transform: translateX(-160px);
+}
+/*# sourceMappingURL=styles.css.map */

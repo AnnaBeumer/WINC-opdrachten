@@ -41,4 +41,6 @@ if (totalAmount > 100) {
   console.log("Je krijgt gratis portie nachos");
 } else if (totalAmount > 25) {
   console.log("Je krijgt gratis (vega)bitterballen");
+} else {
+  console.log("Helaas geen korting.");
 }

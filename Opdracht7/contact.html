@@ -8,35 +8,36 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;800&display=swap"
       rel="stylesheet"
     />
-    <title>Eerste HTML pagina</title>
+    <title>Contact</title>
   </head>
   <body>
     <header>
-      <h1>Een simpele website</h1>
-
-      <hr />
-
-      <h2>Dit is een heading 2</h2>
+      <h1>Contact Page</h1>
     </header>
 
     <main>
-      <section class="black-border">
-        <p>Dit is een paraaf</p>
-      </section>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email: <input type="email" name="email" /></label>
+        </p>
 
-      <hr />
-      <h4>Dingen die ik mooi vindt:</h4>
-      <ol>
-        <li>De natuur</li>
-        <li>Muziek</li>
-        <li>Italie</li>
-      </ol>
+        <p>
+          <label>Tekst: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
     </main>
 
     <nav>
       <ul class="nav">
-        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
