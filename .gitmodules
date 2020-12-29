@@ -1,3 +1,18 @@
 [submodule "Opdracht29"]
 	path = Opdracht29
 	url = https://github.com/AnnaBeumer/Opdracht29
+[submodule "Opdracht30"]
+	path = Opdracht30
+	url = https://github.com/AnnaBeumer/arrow-functions
+[submodule "Opdracht31"]
+	path = Opdracht31
+	url = https://github.com/AnnaBeumer/debuggen101
+[submodule "Opdracht32"]
+	path = Opdracht32
+	url = https://github.com/AnnaBeumer/array-methods1
+[submodule "Opdracht33"]
+	path = Opdracht33
+	url = https://github.com/AnnaBeumer/array-methods2
+[submodule "Opdracht34"]
+	path = Opdracht34
+	url = https://github.com/AnnaBeumer/superpowers
