@@ -5,7 +5,7 @@ const movieCounterPlaceholder = document.getElementById("movie-counter");
 let searchMovie = searchBar.value;
 let currentFilter = document.querySelector("input[name=filter]:checked");
 // let currentUnderline = document.querySelector(".button-filter");
-
+console.log(movies);
 /*
 hang een eventlistener aan alle radiobuttons en voer de setSelectedFilters functie uit
 */
@@ -13,7 +13,9 @@ filterButtons.forEach((button) => {
   button.addEventListener("change", (event) => {
     currentFilter = event.target;
     document.querySelector(".underline").classList.remove("underline");
-    document.querySelector(`#div-${CSS.escape(currentFilter.value)}`).classList.add("underline");
+    document
+      .querySelector(`#div-${CSS.escape(currentFilter.value)}`)
+      .classList.add("underline");
     setSelectedFilters(currentFilter.value);
   });
 });
