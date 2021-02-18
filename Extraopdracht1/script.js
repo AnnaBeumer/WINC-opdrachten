@@ -1,14 +1,18 @@
-const makePizza = (topping) => {
-  console.log("This pizza contains the following: " + topping);
+const makePizza = () => {
+  console.log("Roll dough");
+  console.log("Spread tomato sauce");
+  console.log("Put cheese");
+  console.log("Bake in oven.");
 };
 
-makePizza("tomatosauce, cheese, union.");
-makePizza("tomatosauce, mozzarella, salami.");
+makePizza();
 
-const makeSushi = (topping) => {
-  console.log("This sushi contains:" + topping);
+
+const makeSushi = () => {
+  console.log("Add rice");
+  console.log("Add fish");
+  console.log("Roll up and cut");
 };
 
-makeSushi("rice, salmon.");
-makeSushi("rice, tuna");
-makeSushi("rice, advocado");
+makeSushi();
+
