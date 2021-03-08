@@ -1,0 +1,16 @@
+{
+  "name": "opdracht48",
+  "version": "1.0.0",
+  "description": "",
+  "main": "passwordVerifier.js",
+  "scripts": {
+    "test": "jest",
+    "debug": "nodemon --inspect -e js passwordVerifier.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
